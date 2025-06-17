@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="489f5471-ee78-41c7-ae7e-291b4cc1b41c" name="Changes" comment="" />
+    <list default="true" id="489f5471-ee78-41c7-ae7e-291b4cc1b41c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/movie-website/public/hero-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-website/public/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-website/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-website/public/no-movie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-website/public/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-website/public/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-website/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-website/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-website/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-website/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-website/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +32,9 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2yeHT60QY5nNDRdJXqetYb9Tu0Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,10 +46,21 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sunaa\WebstormProjects\Movie Website\movie-website\public" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750188123450</updated>
-      <workItem from="1750188124465" duration="174000" />
+      <workItem from="1750188124465" duration="7770000" />
     </task>
     <servers />
   </component>
