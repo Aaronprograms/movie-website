@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Search from "./components/Search.jsx";
+import MovieCard from "./components/MovieCard.jsx";
+import Spinner from "./components/Spinner.jsx";
+import { useDebounce } from 'react-use';
+import { updateSearchCount } from './appwrite.js';
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
@@ -18,17 +21,23 @@ const API_OPTIONS = {
 // API - Application Programming Interface - a set of rules
 // that allows one software application to talk to another
 
-function App() {
+const App = () => {
     const [searchTerm, setSearchTerm] = useState('')
     const [errorMessage, setErrorMessage] = useState('');
     const [movieList, setMovieList] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('')
 
-    const fetchMovies = async () => {
+    // Debounce the search term to prevent making too many API requests
+    useDebounce(() => setDebouncedSearchTerm(searchTerm), 500, [searchTerm])
+
+    const fetchMovies = async (query='') => {
         setIsLoading(false);
         setErrorMessage('');
         try {
-            const endpoint = `${API_BASE_URL}/discover/movie?sort_by=popularity.desc`;
+            const endpoint = query
+                ? `${API_BASE_URL}/search/movie?query=${encodeURIComponent(query)}`
+                :`${API_BASE_URL}/discover/movie?sort_by=popularity.desc`;
 
             const response = await fetch(endpoint, API_OPTIONS);
 
@@ -45,6 +54,10 @@ function App() {
             }
 
             setMovieList(data.results || []);
+
+            if(query && data.results.length > 0 ) {
+                updateSearchCount(query, data.results[0]);
+            }
         } catch (error) {
             console.error(`Error fetching movies: ${error}`)
             setErrorMessage('Error fetching movies. Please try again later.');
@@ -55,8 +68,8 @@ function App() {
     }
 
     useEffect(() => {
-        fetchMovies();
-    }, [])
+        fetchMovies(debouncedSearchTerm);
+    }, [debouncedSearchTerm])
 
     return (
         <main>
@@ -72,16 +85,16 @@ function App() {
                 </header>
 
                 <section className="all-movies">
-                    <h2 className="mt-[20px]">All Movies</h2>
+                    <h2 className="mt-[20px]">Popular</h2>
 
                     {isLoading ? (
-                        <p className="text-white">Loading...</p>
+                        <Spinner />
                     ): errorMessage ? (
                         <p className="text-red-500">{errorMessage}</p>
                     ) : (
                         <ul>
                             {movieList.map((movie) => (
-                                <p key={movie.id} className="text-white">{movie.title}</p>
+                                <MovieCard key={movie.id} movie={movie} />
                             ))}
                         </ul>
                     )}
