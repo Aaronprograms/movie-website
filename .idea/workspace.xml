@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="489f5471-ee78-41c7-ae7e-291b4cc1b41c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/movie-website/public/hero-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-website/public/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-website/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-website/public/no-movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-website/public/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-website/public/star.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-website/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-website/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-website/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-website/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-website/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-website/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2yeHT60QY5nNDRdJXqetYb9Tu0Z" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -41,11 +31,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.localhost:5191.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sunaa/WebstormProjects/Movie Website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,8 +50,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sunaa\WebstormProjects\Movie Website\movie-website\src\components" />
       <recent name="C:\Users\sunaa\WebstormProjects\Movie Website\movie-website\public" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost:5191" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5191/">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:5191" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -75,7 +78,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750188123450</updated>
-      <workItem from="1750188124465" duration="7770000" />
+      <workItem from="1750188124465" duration="9727000" />
+      <workItem from="1750440177858" duration="549000" />
+      <workItem from="1750440767734" duration="30000" />
+      <workItem from="1750440838193" duration="1000" />
+      <workItem from="1750441071554" duration="6490000" />
+      <workItem from="1750449536874" duration="5233000" />
     </task>
     <servers />
   </component>
